@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Critical Hits</title>
+  </head>
+  <body>
+<h4>ACKS Criticals Testing Area:</h4>
+
+<p>Which weapon is the character using?:</p>
+<input type="radio" name="weaponDmg" value="1"> club/dagger/darts/sling/sap/whip (base d4 damage)<br>
+<input type="radio" name="weaponDmg" value="2"> hand axe/crossbow/composite bow/longbow/shortbow/javelin/short sword/staff (base d6 damage) <br>
+<input type="radio" name="weaponDmg" value="3"> battle axe/arbalest/flail/mace/warhammer/spear/sword (base d8 damage)<br>
+<input type="radio" name="weaponDmg" value="4"> great axe/morning star/lance/pole arm/two-handed sword (base d10 damage +) <br>
+<!-- <input type="radio" name="weaponDmg" value="5"> catapult/ballista (siege, base 3d6 damage) <br>
+<input type="radio" name="weaponDmg" value="6"> heavy catapult (heavy siege, base 4d6 damage)<br> -->
+
+<p>Check all that apply:</p>
+<!-- each one below increases severity by 1 -->
+<input type="checkbox" class="severity" name="severity" value="1"> Possesses a relevant Proficiency
+(Ambush, Blind Fighting, Combat Reflexes, Combat Trickery, Dungeon Bashing, Fighting Style, Sniping, Weapon Focus)<br>
+<input type="checkbox" class="severity" name="severity" value="1"> Possesses multiple relevant Powers <br>
+<input type="checkbox" class="severity" name="severity" value="1"> Is in berserker rage or backstabbing <br>
+<input type="checkbox" class="severity" name="severity" value="1"> Using a magic weapon <br>
+
+<!-- Effect#1 [@Effect1]
+Effect#2 [@Effect2][@Effect1]
+Effect#3 [@Effect3][@Effect1]
+Effect#4 [@Effect4][@Effect1]
+Effect#5 [@Effect4][@Effect2][@Effect1]
+Effect#6 [@Effect4][@Effect3][@Effect1]
+Effect#7 [@Effect4][@Effect3][@Effect2][@Effect1][@Effect1] -->
+
+
+    <script src="critical.js" charset="utf-8"></script>
+  </body>
+</html>
